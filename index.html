@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CORONAVIRUS....</title>
+    <link rel="icon" href="./images/coronaverus.jpeg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-------------- mom menu --------->
+    <div id="menu">
+      <ul>
+        <li><a href="">covid-19</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">news</a></li>
+        <li style="float: right"><a href="" class="active">connexion</a></li>
+      </ul>
+    </div>
+    <header id="slider">
+      <img src="./images/c1.jpeg" id="img" />
+      <div class="entete-titre">
+        <h1>covid-19</h1>
+        rester <strong>chez vous</strong>2022
+        <div id="rs">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+      <div id="btn-left">
+        <img src="./images/BL.png" class="left" onclick="slider(-1);" />
+      </div>
+      <div id="btn-right">
+        <img src="./images/BR.png" class="right" onclick="slider(+1);" />
+      </div>
+    </header>
+
+    <!---------- main ---------------->
+    <main id="contenu">
+      <h1 class="titre_section">le corona verus Qu'est-ce que c'est</h1>
+      <p>
+        Covid-19 fait référence à « Coronavirus Disease 2019 », la maladie
+        provoquée par un virus de la famille des Coronaviridae, le SARS-CoV-2.
+        Cette maladie infectieuse est une zoonose, dont l'origine est encore
+        débattue, qui a émergé en décembre 2019 dans la ville de Wuhan, dans la
+        province du Hubei en Chine. Elle s'est rapidement propagée, d'abord dans
+        toute la Chine, puis à l'étranger provoquant une épidémie mondiale. Le
+        Covid-19 est une maladie respiratoire pouvant être mortelle chez les
+        patients fragilisés par l'âge ou une autre maladie chronique. Elle se
+        transmet par contact rapproché avec des personnes infectées. La maladie
+        pourrait aussi être transmise par des patients asymptomatiques mais les
+        données scientifiques manquent pour en attester avec certitude.
+      </p>
+      <h1 class="titre_section">Les Symptômes</h1>
+      <p>Les personnes touchées peuvent ressentir les Symptômes suivants:</p>
+      <div class="colonne">
+        <div class="middle">
+          <img
+            src="./images/fievre.jpeg.jpeg"
+            class="image"
+            style="width: 100%"
+          />
+          <h3 class="text">fievre</h3>
+        </div>
+        <div class="middle">
+          <img
+            src="./images/toux.jpeg.jpeg"
+            class="image"
+            style="width: 100%"
+          />
+          <h3 class="text">toux sèche</h3>
+        </div>
+        <div class="middle">
+          <img
+            src="./images/douleur.jpeg.jpeg"
+            class="image"
+            style="width: 100%"
+          />
+          <h3 class="text">douleur tête</h3>
+        </div>
+      </div>
+    </main>
+    <!--------------- formulaire news letter ------------->
+    <div class="abonnement">
+      <h2>Abonnez-vous à notre liste de diffusion</h2>
+      <form class="inscription">
+        <input
+          type="email"
+          placeholder="exemple@exemple.com"
+          required
+          autocomplete="off"
+        />
+        <button type="submit"><span>inscription</span></button>
+      </form>
+    </div>
+
+    <div class="test"></div>
+    <div class="footer">
+      <h1>
+        corona virus <br />
+        <img src="./images/icof.png" class="sociaus" />
+        <img src="./images/icoy.png" class="sociaus" />
+        <img src="./images/icot.png" class="sociaus" />
+        <img src="./images/icoi.png" class="sociaus" />
+      </h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
